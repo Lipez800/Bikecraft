@@ -1,0 +1,133 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial;
+}
+
+.inicio {
+  text-align: center;
+}
+
+.Titulo {
+  padding: 40px;
+}
+
+.BicicletasFeitas {
+  padding-top: 40px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.VANTAGENSBIKCRAFT {
+  padding: 40px;
+  padding-right: 0px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 25px;
+  font-size: 64px;
+  color: #c6c6c6;
+}
+
+.texto {
+  font-weight: bold;
+  font-size: 20px;
+  word-wrap: break-word;
+  text-align: right;
+  margin-right: 25px;
+  margin-left: 20px;
+  padding-bottom: 15px;
+}
+
+.textosegundaparte {
+  font-size: 17px;
+  word-wrap: break-word;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.ItensGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 130px);
+  justify-content: center;
+  font-weight: bold;
+}
+
+.meiogrid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  justify-content: center;
+  gap: 0px;
+}
+
+.meiogrid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  justify-content: center;
+  gap: 0px;
+  margin-bottom: 50px;
+}
+
+.fundo {
+  background-color: white;
+}
+
+.Button2 {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  grid-column-start: 1;
+  padding: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 320px;
+}
+
+.linhavermelha {
+  border: solid #ee2211 2px;
+  margin-top: 25px;
+  padding: 0px;
+  width: 50px;
+  height: 0px;
+  position: absolute;
+  right: auto;
+  left: auto;
+  margin-left: 223px;
+}
+
+#espaçamento {
+  padding: 35px;
+}
+
+.espaçamentoimg {
+  padding-right: 15px;
+}
+
+.Final {
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  word-wrap: break-word;
+  padding: 25px;
+  padding-top: 35px;
+}
+
+span {
+  background-color: white;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+h3 {
+  font-weight: bold;
+}
