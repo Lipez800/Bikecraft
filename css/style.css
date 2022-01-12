@@ -1,0 +1,164 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial;
+}
+
+.inicio {
+  text-align: center;
+}
+
+.Titulo {
+  padding: 2.5rem;
+}
+
+.BicicletasFeitas {
+  padding-top: 2.5rem;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 1.5rem;
+}
+
+.BicicletasFeitas::after {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: 0.2rem;
+  background: #d91212;
+  position: relative;
+  bottom: 4.5rem;
+  left: 16.4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.VANTAGENSBIKCRAFT {
+  padding: 2rem;
+  padding-top: 6rem;
+  padding-right: 0rem;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 1.5rem;
+  font-size: 4rem;
+  color: #c6c6c6;
+  background-image: url("img/onda.svg");
+}
+
+.texto {
+  font-weight: bold;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  text-align: right;
+  margin-right: 1.2rem;
+  margin-left: 2rem;
+}
+
+.textosegundaparte {
+  font-size: 17px;
+  word-wrap: break-word;
+  text-align: left;
+  padding-left: 2.5rem;
+}
+
+.meiogrid {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 31.2rem);
+  justify-content: center;
+  gap: 0px;
+}
+
+.fundo {
+  background-color: white;
+}
+
+.Button {
+  display: flex;
+  justify-content: end;
+  margin-left: 21rem;
+  margin-right: auto;
+  width: 8rem;
+}
+
+.Button2 {
+  background-color: red;
+  color: white;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  grid-column-start: 1;
+  padding: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.Button2:hover {
+  transition: 0.3s;
+  background-color: #900;
+  border-radius: 0.3rem;
+}
+
+#espaçamento {
+  padding: 2rem;
+}
+
+.espaçamentoimg {
+  padding-right: 0.5rem;
+  display: inline-flex;
+  position: relative;
+  top: 0.3rem;
+}
+
+.Final {
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  word-wrap: break-word;
+  padding: 2rem;
+  padding-top: 2.2rem;
+  margin-top: 3rem;
+}
+
+a {
+  text-decoration: none;
+  background: white;
+  padding: 1rem 1rem;
+  display: block;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0.4rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0rem;
+  padding: 0rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+a:visited {
+  color: black;
+}
+
+.Borda:hover {
+  outline: 0.1rem solid red;
+  border-radius: 0.3rem;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: left;
+  padding: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.cor {
+  background-color: #f7f7f7;
+}
+
+h3:hover {
+  transition: 0.3s;
+  border-left: 0.3rem groove #d91212;
+}
